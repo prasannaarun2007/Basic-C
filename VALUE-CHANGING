@@ -1,14 +1,14 @@
-int main() 
+int main()
 {
 int a,b,c;
-printf("value of a=");
+printf("enter first number a=");
 scanf("%d",&a);
-printf("value of b=");
+printf("enter second number b=");
 scanf("%d",&b);
+printf("before swapping a=%d and b=%d",a,b);
 c=a;
 a=b;
 b=c;
-printf("After changing value");
-printf("\n value of a=%d",a);
-printf("\n value of b=%d",b);
-} 
+printf("\n");
+printf("after swapping a=%d and b=%d",a,b);
+}
