@@ -1,0 +1,12 @@
+#include <stdio.h>
+main()
+{
+   const float pi=3.14;
+   float r,Area, Volume;
+   printf("enter radius r=");
+   scanf("%f",&r);
+   Area=4*pi*r*r;
+   Volume =(4/3)*pi*r*r*r;
+   printf("Area of circle is %f and volume is %f",Area, Volume);
+  
+  }
