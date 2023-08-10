@@ -1,0 +1,15 @@
+include <stdio.h>
+main()
+{
+    int x=0;
+    int a=10;
+    x=++a;
+    printf("After pre-increment,\n");
+    printf("value of a=%d and value of x=%d,\n",a,x);
+    int y=0;
+    int b=20;
+    y=b++;
+    printf("After post increment,\n");
+    printf("value of b=%d and value of y=%d,\n",b,y);
+    
+}
