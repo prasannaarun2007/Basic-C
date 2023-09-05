@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int n,i,q,rem,usernumber,rev=0;
+    printf("ENTER YOUR NUMBER:-");
+    scanf("%d",&n);
+    usernumber=n;
+    printf("*****************\n");
+    for(i=1;n>0;i++)
+    {
+        rem=n%10;
+        rev=(rev*10)+rem;
+        q=n/10;
+        n=q;
+    }
+        if(usernumber==rev)
+        {
+        printf("NUMBER IS PALINDROME");
+        }
+    else
+        { 
+        printf("NUMBER IS NOT PALINDROME");
+  
+    }
+}
