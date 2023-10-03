@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char fname[10]="PRASANNA";
+    char lname[10]="ESHA";
+    printf("%s",strcat(fname,lname));
+
+    
+}
