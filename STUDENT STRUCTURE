@@ -12,6 +12,7 @@ struct student
 }s1;
 main()
 {
+    printf("HI PLEASE ENTER YOUR DETAIL\n");
     printf("ENTER YOUR ROLL NUMBER:-");
     scanf("%d",&s1.rollno);
     printf("ENTER YOUR NAME:-");
@@ -26,4 +27,5 @@ main()
     printf("sname is %s\n",s1.sname);
     printf("cid is %d\n",s1.c.cid);
     printf("cname is %s\n",s1.c.cname);
+    printf("SUCESSFULLY UPDATED");
 }
