@@ -1,0 +1,17 @@
+#include <stdio.h>
+void fun1()
+{
+    printf("I AM IN MK-3I\n");
+}
+void fun2()
+{
+    printf("I AM IN A.R.KALSEKAR COLLEGE\n");
+}
+void main()
+{
+    printf("I AM PRASANNA ARUN\n");
+    fun1();
+    printf("I AM STUDIYING IN MECHATRONICS ENGNEERING\n");
+    fun2();
+    printf("I AM IN THIRD YEAR\n");
+}
