@@ -1,0 +1,29 @@
+// Offline C compiler to run C program offline
+#include <stdio.h>
+void add(int a,int b)
+{
+    printf("ADDITION IS :-%d\n",a+b);
+}
+void sub(int a,int b)
+{
+    printf("SUBSTRACTION IS :-%d\n",a-b);
+}
+void mul(int a,int b)
+{
+    printf("MULTIPLICATION IS :-%d\n",a*b);
+}
+void div(int a,int b)
+{
+    printf("DIVITION IS :-%d\n",a/b);
+}
+void main()
+{
+    int a,b;
+    printf("ENTER YOUR NUMBER:-\n");
+    scanf("%d%d",&a,&b);
+    printf("*--------------ANSWERS--------------*\n");
+    add(a,b);
+    sub(a,b);
+    mul(a,b);
+    div(a,b);
+}
