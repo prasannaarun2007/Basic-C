@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<time.h>
+
+int main()
+{
+    printf("\n\n\t\tTIME OF THE CODE WRITTERN\n\n\n");
+
+    time_t t;   // not a primitive datatype
+    time(&t);
+
+    printf("\nTHIS PROGRAM HAS BEEN WRITTERN AT (DATE AND TIME):\n%s", ctime(&t));
+
+    printf("\n\n\t\t\t CODE SUCCESSFULLY DONE !\n\n\n");
+    return 0;
+}
